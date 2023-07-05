@@ -55,8 +55,6 @@ const createLayout = (dataArr) => {
     addRemoveButton(rowElement);
     table.append(rowElement);
   });
-
-  document.body.append(table);
 };
 
 fetchData()
